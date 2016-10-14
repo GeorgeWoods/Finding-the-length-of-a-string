@@ -4,10 +4,10 @@ public class How_Many_Characters_In_Name
 {
     public static void main(String[] args)
     { 
-        String Name = "";
+        String name = "";
         Scanner sc = new Scanner(System.in) ;
-        Name = sc.nextLine();
-        System.out.println(Name.length());
+        name = sc.nextLine();
+        System.out.println(name.length());
         
     }
 }
