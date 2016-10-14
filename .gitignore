@@ -1,12 +1,13 @@
-*.class
+import java.util.Scanner;
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+public class How_Many_Characters_In_Name
+{
+    public static void main(String[] args)
+    { 
+        String Name = "";
+        Scanner sc = new Scanner(System.in) ;
+        Name = sc.nextLine();
+        System.out.println(Name.length());
+        
+    }
+}
